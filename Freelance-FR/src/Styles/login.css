@@ -1,0 +1,9 @@
+button {
+    background-color: #006064 !important;
+}
+button:hover{
+background-color: #023032 !important;
+}
+.sizebox{
+    margin: 40px;
+}

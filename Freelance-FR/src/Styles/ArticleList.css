@@ -1,0 +1,37 @@
+/* Add this CSS in a separate stylesheet or in your component styles */
+
+.article-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .Card-title{
+      font-weight: bold;
+      color: black;
+  }
+  .article-card img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .article-content {
+    flex-grow: 1;
+  }
+  
+  .article-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the overall container, e.g., the parent component */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

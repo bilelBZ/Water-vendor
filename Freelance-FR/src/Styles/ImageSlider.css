@@ -1,0 +1,22 @@
+/* src/styles/ImageSlider.css */
+.image-slider {
+    width: 50%;
+    
+  }
+  
+  /* Styling for react-slick dots */
+  .slick-dots {
+    bottom: 10px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: #fff;
+  }
+  .Title-slider{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+  }

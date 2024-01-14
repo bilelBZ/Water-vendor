@@ -1,0 +1,14 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+/* Your custom styles go here */
+body{
+    background: #00bcd4;
+background: linear-gradient(0deg, rgba(0,188,212,1) 50%, hwb(182 24% 41%) 100%);
+    
+
+}
