@@ -1,6 +1,6 @@
 // components/WaterCalculator.jsx
-import React, { useState } from 'react';
-import '../styles/WaterSimulator.css';
+import { useState } from 'react';
+import '../Styles/WaterSimulator.css';
 
 const WaterCalculator = () => {
   const [waterUsage, setWaterUsage] = useState(0);

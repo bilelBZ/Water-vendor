@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WaterSimulator from './Components/WaterSimulator';
 import Footer from './Components/Footer';
 import { useState } from 'react';
-import ArticleForm from './components/ArticleForm';
+import ArticleForm from './Components/ArticleForm';
 import ArticleData from './Components/ArticleList';
 
 function App() {

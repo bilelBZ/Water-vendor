@@ -2,7 +2,8 @@
 import React, { useState } from 'react';
 import '../Styles/ArticleForm.css'; // Import the CSS file for styling
 
-const ArticleForm = ({ onSubmit,addArticle }) => {
+// eslint-disable-next-line react/prop-types
+const ArticleForm = ({ addArticle }) => {
 
     const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
